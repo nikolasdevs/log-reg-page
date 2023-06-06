@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/5c5fb0baac.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="section-header">
+      <div class="img logo">SIRNIK</div>
+      <div class="left-header">
+        <div class="navbar">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+        <button class="register">
+       Login
+        </button>
+      </div>
+    </section>
+
+    <section class="section-main">
+      <div class="hero">
+        <div class="img hero-img"></div>
+      </div>
+    </section>
+
+    <div class="box login-pop-up">
+      <h1>Login</h1>
+
+      <div id="email" class="input-box">
+        <label>Email</label>
+        <input type="email" /><i class="fa-solid fa-envelope"></i>
+      </div>
+      <div id="password" class="input-box">
+        <label>Password</label>
+        <input type="password" /><i class="fa-solid fa-lock"></i>
+      </div>
+
+      <button id="signInBtn">Sign In</button>
+      <div class="forget">
+        <div class="forgetpwd"><a href="#">Forget Password?</a></div>
+        <div class="no-acc">
+          <p>No Account? <a href="#" id="signUpLink">Sign Up</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="box reg-pop-up">
+      <h1>Register</h1>
+
+      <div id="username" class="input-box">
+        <label>Username</label>
+        <input type="text" /><i class="fa-solid fa-user"></i>
+      </div>
+      <div id="email" class="input-box">
+        <label>Email</label>
+        <input type="email" /><i class="fa-solid fa-envelope"></i>
+      </div>
+      <div id="password" class="input-box">
+        <label>Password</label>
+        <input type="password" /><i class="fa-solid fa-lock"></i>
+      </div>
+      <div id="password2" class="input-box">
+        <label>Confirm Password</label>
+        <input type="password" /><i class="fa-solid fa-lock"></i>
+      </div>
+      <button id="signUpBtn">Sign up</button>
+      <div class="forget">
+        <p class="guestSignIn">
+          Already registered? <a href="#" id="signInLink">Sign In</a>
+        </p>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
